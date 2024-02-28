@@ -16,5 +16,7 @@ public interface IPersonaService {
 	
 	public List<Persona> buscarTodos();
 	
+	public void actualizarPorCedula(String cedula);
+
 
 }

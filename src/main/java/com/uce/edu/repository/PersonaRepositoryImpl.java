@@ -52,4 +52,13 @@ public class PersonaRepositoryImpl implements IPersonaRepository{
 		return myQuery.getResultList();
 	}
 
+	@Override
+	public void actualizarPorCedula(String cedula) {
+		// TODO Auto-generated method stub
+		Persona persona = this.consultarPorCedula(cedula);
+		this.actualizar(persona);
+	}
+	
+	
+
 }

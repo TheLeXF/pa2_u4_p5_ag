@@ -14,4 +14,6 @@ public interface IPersonaRepository {
 	public void eliminarPorCedula(String cedula);
 	
 	public List<Persona> consultarTodos();
+	
+	public void actualizarPorCedula(String cedula);
 }

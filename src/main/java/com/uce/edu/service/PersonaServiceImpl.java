@@ -42,5 +42,11 @@ public class PersonaServiceImpl implements IPersonaService{
 		// TODO Auto-generated method stub
 		return this.personaRepository.consultarTodos();
 	}
+
+	@Override
+	public void actualizarPorCedula(String cedula) {
+		// TODO Auto-generated method stub
+		this.personaRepository.actualizarPorCedula(cedula);
+	}
 	
 }
